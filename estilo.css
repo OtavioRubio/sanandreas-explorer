@@ -1,0 +1,157 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #98b7d1;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(48, 47, 50, 0.757);
+    padding: 20px 0;
+/*transition: background-color 0.3s ease ;*/
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+nav ul li{
+    margin: 0 20px;
+
+}
+
+
+
+nav ul li a {
+    color: rgb(163, 161, 161);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+
+}
+
+
+nav ul li a:hover {
+    color: #ff6347;
+    font-size: 20px;
+}
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    /* background-color: #4A90E2; */
+    background-image: url(https://wallpapers.com/images/hd/gta-sa-4k-black-man-in-orange-abnqs1gu0hjl54y1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(88, 88, 88);
+    text-shadow: 1px 1px 1px #000000;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.content .text p {
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+}
+
+#services {
+    background-color: #6bc95d;
+}
+
+#about {
+    background-color: #c9b04f;
+}
+
+#contact {
+    background-color: #732e6b9f;
+}
+
+.cta-button {
+    margin-top: 30px;
+    background-color: #ff6347;
+    color: #000000;   
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgb(58, 21, 21); 
+    transition: background-color 1s ease, transform 0.7s ease;
+}
+
+.cta-button:hover {
+    background-color: #2ac412;
+}
+
+.img1:hover {
+    transition: transform 0.2s cubic-bezier( 0.25, 0.1, 0.25, 0.1) ;
+    transform: scale(1.05);
+}
+
+.img2:hover {
+    transition: transform 0.2s cubic-bezier( 0.25, 0.1, 0.25, 0.1) ;
+    transform: scale(1.05);
+}
+
+.img3:hover {
+    transition: transform 0.2s cubic-bezier( 0.25, 0.1, 0.25, 0.1) ;
+    transform: scale(1.05);
+}
+
+footer {
+    height: 100px;
+    background-color: #e4d9bb;
+    color: rgb(82, 82, 81);
+}
